@@ -23,3 +23,13 @@ def commandCalc(self):
     print(self)
 
 commands = [commandReproduce, commandWhatsapp, commandScreenshot]
+
+newCommandsExport = [ # Hay que hacer que las funciones no requieran de parámetros como el self
+    {
+    "names": ["screenshot", "captura"],
+    "value": commandScreenshot},
+    {
+    "names": ["whatsapp"],
+    "value": commandWhatsapp
+    }
+]
