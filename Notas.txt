@@ -1,0 +1,5 @@
+Tratando de usar archivo Commands con todos los comandos ahi
+Linea 4 import
+def comandos:
+    Intento de hacer que cree un array en base a los comandos que tiene el archivo para automatizar switch
+    Llamadas comentadas a los comandos intentanto su funcionamiento

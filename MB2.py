@@ -1,7 +1,7 @@
 from AssistantClass import Assistant
 
-name = ["madbone", 'bone', 'mad', 'boom']
-sensibilidad = 4000
+name = ["madbone", 'bone', 'mad', 'boom'] # Formas de llamar al asistente
+sensibilidad = 4000 # Milisegundos
 mb = Assistant(name, sensibilidad)
 
-mb.runMadbone(manual=True)
+mb.runAssistant(manual=True)
